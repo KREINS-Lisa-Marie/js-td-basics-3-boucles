@@ -28,14 +28,15 @@ EXEMPLE 2 :
 */
 
 
-
-for (let i = 0; i <= 10; i++ ){
+console.log("Le manège démarre.");
+for (let i = 1; i <= 10; i++ ){
     console.log(`tour numéro ${i}`);
 }
+console.log("Le manège s'arrête");
 
 
 
-
+/*.  Exercices qu'on a fait pdt le cours
 const toto= 'bonjour';
 let titi;
 if (toto ==='bonjour'){
@@ -45,7 +46,7 @@ if (toto ==='bonjour'){
 
 }
 
-
+*/
 
 /*      Operateur ternaire
 let titi= toto === 'bonjour' ? true: false;

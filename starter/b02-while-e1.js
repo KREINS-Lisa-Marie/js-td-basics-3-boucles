@@ -17,3 +17,11 @@ Affichez
 - les nombres de 1 à 5 à l'aide d'une boucle WHILE
 - Fin du programme
 */
+
+let i = 1;
+console.log("Début du programme");
+
+while (i>=1 && i<=5){
+    console.log(i);
+}
+console.log("Fin du programme");
