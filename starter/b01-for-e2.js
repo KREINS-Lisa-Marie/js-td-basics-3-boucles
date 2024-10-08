@@ -26,3 +26,28 @@ EXEMPLE 2 :
   - C'est le tour numéro 10
   - Le manège s'arrête
 */
+
+
+
+for (let i = 0; i <= 10; i++ ){
+    console.log(`tour numéro ${i}`);
+}
+
+
+
+
+const toto= 'bonjour';
+let titi;
+if (toto ==='bonjour'){
+    titi= true;
+
+}else{
+
+}
+
+
+
+/*      Operateur ternaire
+let titi= toto === 'bonjour' ? true: false;
+
+ */
