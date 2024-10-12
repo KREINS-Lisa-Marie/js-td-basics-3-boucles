@@ -27,6 +27,29 @@
 */
 
 
+let table= parseInt(prompt(" Je voudrais afficher les 10 premières valeurs de la table de multiplication par..."));
+console.log(`Voici les 10 premières valeurs de la table de multiplication par ${table}`);
+
+for (var i= 1; i <= 10; i++){
+    resultat = i * table;
+    console.log(`(${i} * ${table}) = ${resultat}`);
+}
+console.log(i);
+
+
+//- que se passe-t-il si vous avez déclaré i avec let ?
+
+// il ne reconnait pas i. i= undefinded
+
+//- que se passe-t-il si vous déclarez i avec var ?
+
+// i = 11. Il reconnait i
+
+
+
+
+
+/* TEST ≠ bon
 
 const table= parseInt(prompt(" Entrez une table de multiplication..."));
 if (table){
@@ -46,3 +69,4 @@ if (table){
     console.log("entrez un nombre");
 }
 
+*/

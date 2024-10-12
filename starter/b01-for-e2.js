@@ -37,6 +37,7 @@ console.log("Le manège s'arrête");
 
 
 /*.  Exercices qu'on a fait pdt le cours
+
 const toto= 'bonjour';
 let titi;
 if (toto ==='bonjour'){

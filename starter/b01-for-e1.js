@@ -55,7 +55,19 @@ for (let i = 1; i<=10; i++){
 // nbre = 11,  11 <= 10 FALSE,       on sort de la boucle !
 
 
-
+// N.B. TABLE D'ÉVOLUTION DES VARIABLES :
+//   nbre      nbre < =10           console.log(nbre)        nbre++
+// nbre = 1,   1 < 5 true,             affiche 1,          nbre passe à 1+1 = 2
+// nbre = 2,   2 < 5 true,             affiche 2,          nbre passe à 2+1 = 3
+// nbre = 3,   3 < 5 true,             affiche 3,          nbre passe à 3+1 = 4
+// nbre = 4,   4 < 5 true,             affiche 4,          nbre passe à 4+1 = 5
+// nbre = 5,   5 <= 10 true,           affiche 5,          nbre passe à 5+1 = 6
+// nbre = 6,   6 <= 10 true,           affiche 6,          nbre passe à 6+1 = 7
+// nbre = 7,   7 <= 10 true,           affiche 7,          nbre passe à 7+1 = 8
+// nbre = 8,   8 <= 10 true,           affiche 8,          nbre passe à 8+1 = 9
+// nbre = 9,   9 <= 10 true,           affiche 9,          nbre passe à 9+1 = 10
+// nbre = 10,  10 <= 10 true,          affiche 10,         nbre passe à 10+1 = 11
+// nbre = 11,  11 <= 10 FALSE,       on sort de la boucle !
 
 
 
