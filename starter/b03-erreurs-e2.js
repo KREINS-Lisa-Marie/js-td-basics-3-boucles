@@ -21,5 +21,17 @@ CORRECTION :
 
 */
 
+for (let i= 1; i<=5;){
+    console.log(i);
+    i++;
+}
+
+// la console affiche quand-même les bons chiffres.
 
 
+
+/*
+for (i=1; i<=5; i++){
+    console.log(i);
+}
+*/

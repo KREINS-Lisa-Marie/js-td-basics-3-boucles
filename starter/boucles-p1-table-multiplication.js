@@ -18,3 +18,33 @@ N.B. Faites-le de deux manières différentes :
 // avec WHILE
 // Répétez le même processus avec une boucle WHILE, en demandant à nouveau la table de multiplication et le nombre de valeurs
 
+
+
+/*  BOUCLE FOR
+
+let valeurMultiplication = prompt("Quelle table de multiplication souhaitez-vous afficher ? La table de multiplication par");
+
+let combienDeValeurs = prompt(   "Combien de valeurs souhaitez-vous afficher pour cette table ?");
+
+console.log(`Voici les ${combienDeValeurs} premières valeurs de la table de multiplication par ${valeurMultiplication} :`);
+
+for ( let i = 1; i<= combienDeValeurs; i++){
+    let resultat= (valeurMultiplication*i);
+    console.log(resultat);
+}
+*/
+/*  WHILE
+
+let valeurMultiplication = prompt("Quelle table de multiplication souhaitez-vous afficher ? La table de multiplication par");
+
+let combienDeValeurs = prompt(   "Combien de valeurs souhaitez-vous afficher pour cette table ?");
+
+console.log(`Voici les ${combienDeValeurs} premières valeurs de la table de multiplication par ${valeurMultiplication} :`);
+
+let i=1;
+while (i<=combienDeValeurs){
+    let resultat= (valeurMultiplication*i);
+    console.log(resultat);
+    i++;
+}
+*/
