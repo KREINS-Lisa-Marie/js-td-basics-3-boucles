@@ -35,6 +35,4 @@ for (let i= 1; i <= multiplicationPar; i++){
         console.log(`Voici les ${combienDeValeurs} premières valeurs de la table de multiplication par ${i}`);
         console.log(resultatj);
     }
-    let resultati = i * multiplicationPar;
-
 }
