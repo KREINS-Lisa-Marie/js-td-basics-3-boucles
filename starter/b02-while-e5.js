@@ -26,9 +26,13 @@ BONUS :
 */
 
 
+let letrreX = prompt("Tapez une lettre ou X pour sortir : ");
+while (letrreX !== "X"){
+    letrreX = prompt("Tapez une lettre ou X pour sortir : ");
+    console.log(letrreX);
+}
+console.log(letrreX);
 
 
 
 // code avec le bonus
-
-
