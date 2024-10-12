@@ -18,11 +18,12 @@ Affichez
 - Fin du programme
 */
 
-let i = 0;
+let i = 1;
 console.log("Début du programme");
 
-while (i>=0 && i<5){
-    i ++;
+while (i>=0 && i<=5){
     console.log(i);
+    i ++;
+
 }
 console.log("Fin du programme");

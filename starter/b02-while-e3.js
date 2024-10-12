@@ -17,6 +17,7 @@ EXEMPLE 3 :
 let i = 0;
 
 while (i<=20){
-    i= i + 2;
     console.log(i);
+    i= i + 2;
+
 }

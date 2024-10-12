@@ -21,10 +21,10 @@ Pour chaque itération, assurez-vous de vous arrêter après avoir affiché les 
 
 let table= parseInt(prompt(" Je voudrais afficher les 10 premières valeurs de la table de multiplication par..."));
 console.log(`Voici les 10 premières valeurs de la table de multiplication par ${table}`);
-let i= 0;
+let i= 1;
 
-while (i>=0 && i <10){
-    i++;
-     resultat= i*table;
+while (i>=1 && i <=10){
+    resultat= i*table;
     console.log(`(${i} * ${table}) = ${resultat}`);
+    i++;
 }
