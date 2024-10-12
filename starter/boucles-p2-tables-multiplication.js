@@ -30,9 +30,9 @@ console.log(`OK, je vais vous afficher les ${combienDeValeurs} premières valeur
 
 
 for (let i= 1; i <= multiplicationPar; i++){
+    console.log(`Voici les ${combienDeValeurs} premières valeurs de la table de multiplication par ${i}`);
     for (let j = 1; j <= combienDeValeurs; j ++){
         let resultatj = j*i;
-        console.log(`Voici les ${combienDeValeurs} premières valeurs de la table de multiplication par ${i}`);
         console.log(resultatj);
     }
 }
