@@ -25,14 +25,24 @@ BONUS :
 - Après avoir quitté la boucle, affichez dans la console la chaîne complète saisie par l'utilisateur en concaténant les lettres.
 */
 
-
+/*
 let letrreX = prompt("Tapez une lettre ou X pour sortir : ");
 while (letrreX !== "X"){
     letrreX = prompt("Tapez une lettre ou X pour sortir : ");
     console.log(letrreX);
 }
 console.log(letrreX);
-
+*/
 
 
 // code avec le bonus
+
+let letrreX = prompt("Tapez une lettre ou X pour sortir : ");
+let concatenation= "";
+while (letrreX !== "X"){
+    letrreX = prompt("Tapez une lettre ou X pour sortir : ");
+    concatenation += letrreX;
+}
+console.log(`${concatenation}`);
+
+
